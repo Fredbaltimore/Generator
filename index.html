@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Background Generator</title>
+        <meta name="gradient generator" content="Allows you to change the background color">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body id="gradient">
+    <main id="container">
+        <div class="typingAffect"><h1>Background Generator</h1></div>
+      
+        <input class="colorOne" type="color" name="colorOne" value="#00ff00">
+        <input class="colorTwo" type="color" name="colorTwo" value="#0000ff">
+        <h2>Current CSS Background</h2>
+   
+        <textarea name="css-gradient-code" id="display-css" cols="55" rows="1"></textarea>
+        <button onclick="copyCode(); displayCopyMessage()" id="copyButton">Copy</button>
+        <div id="empty"></div>
+
+        <script src="script.js"></script>
+    </main>
+    </body>
+</html>
