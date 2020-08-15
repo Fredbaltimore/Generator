@@ -19,7 +19,6 @@ function copyCode(){
 }
 
 function emptyTextBox(){
-    console.log("v");
     return cssCode.value.length;
 }
 
